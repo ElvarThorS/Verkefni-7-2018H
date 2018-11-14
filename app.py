@@ -72,4 +72,4 @@ def member():
     return output
 
 
- run(host='0.0.0.0', port=os.environ.get('PORT'), app=app)
+ run(host='0.0.0.0', port=os.environ.get('PORT'))
