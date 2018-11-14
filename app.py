@@ -71,8 +71,5 @@ def member():
     output = template('members', rows=result)
     return output
 
-try:
-  run(host='0.0.0.0', port=os.environ.get('PORT'), app=app)
 
-except:
-  run(debug=True)
+ run(host='0.0.0.0', port=os.environ.get('PORT'), app=app)
